@@ -2388,6 +2388,18 @@ width: 156px !important;
     margin-bottom: 20px;
     font-size: 29px;
 }
+	
+.img-gallery {
+    margin-bottom: 15px !important;
+    display: inline-block;
+}
+	.img-gallery:hover > img {
+    -ms-transform: scale(1.5,1.5);
+    -webkit-transform: scale(1.5,1.5);
+    transform: none;
+    overflow: hidden;
+}
+	
 }
 
 
@@ -2494,6 +2506,10 @@ font-size: 14px;
 @media (max-width: 359px)
 {
 
+	.img-gallery {
+    overflow: hidden;
+		margin-bottom: 30px !important;}
+	
 }
 
 
