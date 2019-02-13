@@ -1334,8 +1334,11 @@ background-color: #fd9a2b;
     color: #333;
 }
 
-.img-gallery{
-	overflow: hidden;		
+.img-gallery {
+    overflow: hidden;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .img-gallery > img {
     width: 100%;
@@ -1347,6 +1350,7 @@ background-color: #fd9a2b;
     -ms-transform: scale(1.5,1.5);
     -webkit-transform: scale(1.5,1.5);
     transform: scale(1.5,1.5);
+	overflow: hidden;
 }
 .page-pagination {
     text-align: center;
@@ -1527,7 +1531,9 @@ text-align: center;
 .location-section{
 	margin:60px 0px;	
 }
-
+.new-location-section{
+		margin:0px 0px;	
+}
 /* location-section style end */
 
 
@@ -2376,7 +2382,12 @@ width: 156px !important;
     left: 16px;
     z-index: 99999999;
     width: 29px !important;
-}	
+}
+	.place-travel-page h2 {
+    line-height: 34px;
+    margin-bottom: 20px;
+    font-size: 29px;
+}
 }
 
 
