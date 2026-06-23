@@ -1010,6 +1010,13 @@ footer { background-color:#0c1a1e; min-height:350px;
     width: 200px;
     text-align: center;
 }
+.footer-partner-logo {
+    margin-top: 15px;
+    text-align: center;
+}
+.footer-partner-logo img {
+    max-height: 50px;
+}
 
 .footer-col p {
     color: #a0a3a4;
@@ -2526,6 +2533,5 @@ font-size: 14px;
 		margin-bottom: 30px !important;}
 	
 }
-
 
 
