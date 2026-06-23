@@ -1009,7 +1009,6 @@ footer { background-color:#0c1a1e; min-height:350px;
 .logofooter { margin-bottom:10px; font-size:25px; color:#fff; font-weight:700;text-align: center;}
 .logofooter img {
     width: 200px;
-    text-align: center;
 }
 .footer-partner-logo {
     margin-top: 15px;
@@ -2541,4 +2540,3 @@ font-size: 14px;
 		margin-bottom: 30px !important;}
 	
 }
-
