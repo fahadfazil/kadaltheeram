@@ -1017,6 +1017,13 @@ footer { background-color:#0c1a1e; min-height:350px;
 .footer-partner-logo img {
     max-height: 50px;
 }
+.footer-partner-heading {
+    color: #d9d6d6;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 10px;
+    text-align: center;
+}
 
 .footer-col p {
     color: #a0a3a4;
