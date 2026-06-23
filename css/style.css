@@ -1000,6 +1000,7 @@ text-align: center;
 
 /* footer styles start */
 footer { background-color:#0c1a1e; min-height:350px;
+    --footer-heading-color: #d9d6d6;
 }
 .footer-col {
     margin-top: 50px;
@@ -1018,7 +1019,7 @@ footer { background-color:#0c1a1e; min-height:350px;
     max-height: 50px;
 }
 .footer-partner-heading {
-    color: #d9d6d6;
+    color: var(--footer-heading-color);
     font-size: 18px;
     font-weight: 700;
     margin: 0 0 10px;
@@ -2540,5 +2541,4 @@ font-size: 14px;
 		margin-bottom: 30px !important;}
 	
 }
-
 
