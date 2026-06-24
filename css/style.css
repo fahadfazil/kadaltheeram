@@ -1014,8 +1014,10 @@ footer { background-color:#0c1a1e; min-height:350px;
     margin-top: 15px;
 }
 .footer-partner-logo img {
-    max-height: 50px;
-    margin-right: 15px;
+    width: 120px;
+    height: 50px;
+    object-fit: contain;
+    margin-right: 25px;
     vertical-align: middle;
 }
 .footer-partner-heading {
