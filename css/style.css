@@ -1001,6 +1001,7 @@ text-align: center;
 /* footer styles start */
 footer { background-color:#0c1a1e; min-height:350px;
     --footer-heading-color: #d9d6d6;
+    --footer-partner-spacing: 12px;
 }
 .footer-col {
     margin-top: 50px;
@@ -1014,8 +1015,8 @@ footer .footer-col:nth-child(2) .footer-partner-logo {
     text-align: center;
 }
 footer .footer-col:nth-child(2) .footer-partner-logo img {
-    margin-left: 12px;
-    margin-right: 12px;
+    margin-left: var(--footer-partner-spacing);
+    margin-right: var(--footer-partner-spacing);
 }
 footer .footer-col:last-child {
     text-align: right;
