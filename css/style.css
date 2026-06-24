@@ -1006,6 +1006,20 @@ footer { background-color:#0c1a1e; min-height:350px;
     margin-top: 50px;
     margin-bottom: 30px;
 }
+footer .footer-col:first-child {
+    text-align: left;
+}
+footer .footer-col:nth-child(2),
+footer .footer-col:nth-child(2) .footer-partner-logo {
+    text-align: center;
+}
+footer .footer-col:nth-child(2) .footer-partner-logo img {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+footer .footer-col:last-child {
+    text-align: right;
+}
 .logofooter { margin-bottom:10px; font-size:25px; color:#fff; font-weight:700;text-align: center;}
 .logofooter img {
     width: 200px;
